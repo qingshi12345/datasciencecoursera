@@ -1,0 +1,26 @@
+#ignore all target directories
+build/
+data/
+data2/
+result/
+resource/
+#ignore all files ending with ~
+*~
+#ignore backup files
+*.bk
+*_bk
+#ignore qt creator files
+qt_build/
+CMakeLists.txt.user
+#ignore all latex generated files
+doc/*.dvi 
+doc/*.log
+doc/*.ind
+doc/*.aux
+doc/*.toc
+doc/*.syn
+doc/*.idx
+doc/*.out
+doc/*.ilg
+doc/*.pla
+doc/auto/
